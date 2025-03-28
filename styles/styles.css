@@ -1,0 +1,143 @@
+/*Estilos de BandaFav*/
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 1;
+    padding: 3;
+}
+
+header {
+    background-color:#CEBEBE;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+.h1 {
+    color: rgba(0, 0, 0, 0.973);
+}
+
+.adele-imagen {
+
+    width: 500px;
+    height: auto;
+    border: 100spx;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+
+
+/*Estilos de Discografia*/
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 1;
+    padding: 3;
+}
+
+header {
+    background-color: #CEBEBE;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.album-card {
+    display: flex;
+    border: 5px solid #A26769;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ECE2D0;
+}
+
+.album-imagen {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.album-details {
+    flex-grow:100 ;
+}
+
+.album-year {
+    font-style: italic;
+    color: #888;
+}
+
+album-tracks {
+    list-style-type: decimal;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+   
+}
+
+/*Estilos del formulario*/
+.form-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 15px solid #ECE2D0
+    ;
+    border-color: 5px;
+}
+
+.form-group {
+    margin-bottom: 50px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #A26769;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 1px;
+}
+footer {
+    background-color:#CEBEBE;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    bottom: 0;
+}
